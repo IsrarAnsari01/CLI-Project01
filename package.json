@@ -1,11 +1,12 @@
 {
-  "name": "Project01",
+  "name": "cli-project01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./connection/index.js",
+  "preferGlobal": true,
+  "bin": "./src/commands/userCommands.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
