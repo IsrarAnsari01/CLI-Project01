@@ -5,6 +5,16 @@
 
 ### Commands
 * cli-project01 --version 
+* cli-project01 --help
+* cli-project add
+* cli-project find-all
+* cli-project find <name>
+* cli-project update-user <_id>
+* cli-project delete-user <_id>
+  
+### Commands Description
+  
+* cli-project01 --version 
   - This Command will return the Project Version
 
 * cli-project01 --help 
