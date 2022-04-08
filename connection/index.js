@@ -6,7 +6,7 @@ dotenv.config();
 
 module.exports.connectWithDB = () => {
   mongoose.connect(
-    "mongodb+srv://israr0119:0349A24799@cluster0.haoob.mongodb.net/crudApp?retryWrites=true&w=majority",
+    "MONGOOSE_CREDIATIALS",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
